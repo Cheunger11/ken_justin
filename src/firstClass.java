@@ -1,7 +1,7 @@
 public class firstClass {
 
     public static void main (String [] args){
-        countDown(10);
+        countDown(5);
     }
 
     private static void countDown(int max)
