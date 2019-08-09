@@ -1,7 +1,16 @@
 public class firstClass {
 
     public static void main (String [] args){
-        System.out.print ("1,2,3");
+        countDown(10);
+    }
+
+    private static void countDown(int max)
+    {
+        if(max>0)
+        {
+            System.out.println(String.valueOf(max));
+            countDown(max-1);
+        }
     }
 }
 
